@@ -4,18 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Igor’s blog | fastpages blog about coding, books and technical ideas in general.</title>
+<title>Things to check when I train a model. | Igor’s blog</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Igor’s blog" />
+<meta property="og:title" content="Things to check when I train a model." />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="fastpages blog about coding, books and technical ideas in general." />
-<meta property="og:description" content="fastpages blog about coding, books and technical ideas in general." />
-<link rel="canonical" href="https://igorkasianenko.github.io/fastpages-igor/" />
-<meta property="og:url" content="https://igorkasianenko.github.io/fastpages-igor/" />
+<meta name="description" content="My first blog post using markdown with fastpages." />
+<meta property="og:description" content="My first blog post using markdown with fastpages." />
+<link rel="canonical" href="https://igorkasianenko.github.io/fastpages-igor/deep%20learning/2021/05/08/things-to-check-when-training-model.html" />
+<meta property="og:url" content="https://igorkasianenko.github.io/fastpages-igor/deep%20learning/2021/05/08/things-to-check-when-training-model.html" />
 <meta property="og:site_name" content="Igor’s blog" />
-<meta property="og:image" content="https://igorkasianenko.github.io/fastpages-igor/images/logo.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-05-08T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"https://igorkasianenko.github.io/fastpages-igor/","@type":"WebSite","headline":"Igor’s blog","image":"https://igorkasianenko.github.io/fastpages-igor/images/logo.png","name":"Igor’s blog","description":"fastpages blog about coding, books and technical ideas in general.","@context":"https://schema.org"}</script>
+{"url":"https://igorkasianenko.github.io/fastpages-igor/deep%20learning/2021/05/08/things-to-check-when-training-model.html","@type":"BlogPosting","headline":"Things to check when I train a model.","dateModified":"2021-05-08T00:00:00-05:00","datePublished":"2021-05-08T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://igorkasianenko.github.io/fastpages-igor/deep%20learning/2021/05/08/things-to-check-when-training-model.html"},"description":"My first blog post using markdown with fastpages.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/fastpages-igor/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://igorkasianenko.github.io/fastpages-igor/feed.xml" title="Igor's blog" /><link rel="shortcut icon" type="image/x-icon" href="/fastpages-igor/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -67,61 +68,51 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><h3 id="hello-and-welcome-to-my-personal-blog">Hello and welcome to my personal blog</h3>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-<p>My name is Igor Kasianenko. I live in Tel Aviv with my beautiful wife. We like to walk by the sea first thing in the morning, before we drink coffee. I am doing Deep Learning at <a href="https://www.kanduai.com/producerecognition">KanduAI</a>. I started this blog mainly to sort things out and free some head space.</p>
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Things to check when I train a model.</h1><p class="page-description">My first blog post using markdown with fastpages.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-05-08T00:00:00-05:00" itemprop="datePublished">
+        May 8, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
 
-<p>Most of the technical posts may be just an expantion of “mind palace” or “Mind attic” described in book <a href="https://amzn.to/3aW7zCz">Mastermind: How to Think Like Sherlock Holmes</a></p>
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/fastpages-igor/categories/#deep learning">deep learning</a>
+        
+      
+      </p>
+    
 
-<p>[Place for blogpost about Sherlock’s mind palace, Maria Konnikova book and my thoughts].</p>
+    </header>
 
-<p>I want to write about coding, books and technical ideas in general.</p>
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+</ul><p>According to the research mentioned in book <a href="https://amzn.to/3aW7zCz">‘Mastermind: How to Think Like Sherlock Holmes’ by Maria Konnikova</a>, even highly skilled professions like medical doctors are prone to errors and forget important steps in their work if they don’t have written guidance or recepie to do routine repeatative tasks.</p>
 
-<p>This site is built with <a href="https://github.com/fastai/fastpages">fastpages</a>, An easy to use blogging platform with extra features for Jupyter Notebooks.</p>
+<p>So, I decided to write down a list of things that I should check to avoid ruining experiments and save time.</p>
 
-<h1 id="posts">Posts</h1>
+<ol>
+  <li>Check that optimizer and learning rate (SGD, Adam, etc.) is exactly what you need and not old values from previous experiments.</li>
+  <li>Check train and validation augmentations</li>
+  <li>Check number of epochs to train</li>
+  <li>Check if the model is pre-trained or you resume from trained checkpoint. If resume, lower lr (if you don’t use lr scheduler for # epoch)</li>
+  <li>Check that model is frozen\unfrozen like you need.</li>
+  <li>Check dataset. Most of the cases in real world data it is not balanced, so do over- and undersampling. If it is production data - pull latest updates.</li>
+  <li>Check batch size, num_workers for data loader, cuda # if you have &gt; 1 GPU.</li>
+  <li>Check the experiment name for logging. I use ClearML(https://clear.ml/) at work and can recommend them for friendly slack community.</li>
+</ol>
 
+<p>Also inspired by https://twitter.com/karpathy/status/1013244313327681536</p>
 
-
-  
-
-  <!-- Hide posts if front matter flag hide:true -->
-  
-  
-
-  <!-- Sort posts by rank, then date -->
-  
-  
-  
-
- 
-  
-
-   <!-- Assemble final sorted posts array -->
-  
-  <ul class="post-list"><li><h3>
-    <a class="post-link" href="/fastpages-igor/deep%20learning/2021/05/08/things-to-check-when-training-model.html">
-    Things to check when I train a model.
-    </a>
-</h3><p class="post-meta-description">My first blog post using markdown with fastpages.</p><p class="post-meta">May 8, 2021</p>
-</li><li><h3>
-    <a class="post-link" href="/fastpages-igor/fastai/learning/2021/05/08/my-first-markdown-post.html">
-    Why I started personal blog
-    </a>
-</h3><p class="post-meta-description">My first blog post using markdown with fastpages.</p><p class="post-meta">May 8, 2021</p>
-</li><li><h3>
-    <a class="post-link" href="/fastpages-igor/jupyter/2020/02/20/test.html">
-    Fastpages Notebook Blog Post
-    </a>
-</h3><p class="post-meta-description">A tutorial of fastpages for Jupyter notebooks.</p><p class="post-meta">Feb 20, 2020</p>
-</li><li><h3>
-    <a class="post-link" href="/fastpages-igor/markdown/2020/01/14/test-markdown-post.html">
-    An Example Markdown Post
-    </a>
-</h3><p class="post-meta-description">A minimal example of using markdown with fastpages.</p><p class="post-meta">Jan 14, 2020</p>
-</li></ul>
-
-    </div>
+  </div><a class="u-url" href="/fastpages-igor/deep%20learning/2021/05/08/things-to-check-when-training-model.html" hidden></a>
+</article>
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/fastpages-igor/"></data>
