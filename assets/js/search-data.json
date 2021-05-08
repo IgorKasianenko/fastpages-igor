@@ -3,9 +3,9 @@
     
         "post0": {
             "title": "Why I started personal blog",
-            "content": "Why I started personal blog . First reason - Rachel’s blog post “why you should blog”. Jeremy and Rachel co-founded fast.ai, and gave me great opportunity to enter Deep learning. fast.ai is Deep Learning library, it is Massive open online course and friendly community. They use top-down learning approach, and this was first time after my school years that I really enjoyed studying. .",
-            "url": "https://igorkasianenko.github.io/fastpages-igor/markdown/2021/05/08/my-first-markdown-post.html",
-            "relUrl": "/markdown/2021/05/08/my-first-markdown-post.html",
+            "content": "First reason - Rachel’s blog post “why you should blog”. Jeremy and Rachel co-founded fast.ai, and gave me great opportunity to enter Deep learning. fast.ai is - . Deep Learning library | Massive open online course | and friendly community. And other useful things like this blogging template, that was used to host this blog. | They use top-down learning approach, and this was first time after my school years that I really enjoyed studying. .",
+            "url": "https://igorkasianenko.github.io/fastpages-igor/markdown/fastai/learning/2021/05/08/my-first-markdown-post.html",
+            "relUrl": "/markdown/fastai/learning/2021/05/08/my-first-markdown-post.html",
             "date": " • May 8, 2021"
         }
         
