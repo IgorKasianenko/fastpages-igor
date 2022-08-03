@@ -4,20 +4,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>About Me | Igor’s blog</title>
+<title>Things to check when I train a model. | Igor’s blog</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="About Me" />
+<meta property="og:title" content="Things to check when I train a model." />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="fastpages blog about coding, books and technical ideas in general." />
-<meta property="og:description" content="fastpages blog about coding, books and technical ideas in general." />
-<link rel="canonical" href="https://igorkasianenko.github.io/fastpages-igor/about/" />
-<meta property="og:url" content="https://igorkasianenko.github.io/fastpages-igor/about/" />
+<meta name="description" content="My first blog post using markdown with fastpages." />
+<meta property="og:description" content="My first blog post using markdown with fastpages." />
+<link rel="canonical" href="https://igorkasianenko.github.io/fastpages-igor/deep%20learning/2021/05/08/things-to-check-when-training-model.html" />
+<meta property="og:url" content="https://igorkasianenko.github.io/fastpages-igor/deep%20learning/2021/05/08/things-to-check-when-training-model.html" />
 <meta property="og:site_name" content="Igor’s blog" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-05-08T00:00:00-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="About Me" />
+<meta property="twitter:title" content="Things to check when I train a model." />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"fastpages blog about coding, books and technical ideas in general.","headline":"About Me","name":"Igor’s blog","url":"https://igorkasianenko.github.io/fastpages-igor/about/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2021-05-08T00:00:00-05:00","datePublished":"2021-05-08T00:00:00-05:00","description":"My first blog post using markdown with fastpages.","headline":"Things to check when I train a model.","mainEntityOfPage":{"@type":"WebPage","@id":"https://igorkasianenko.github.io/fastpages-igor/deep%20learning/2021/05/08/things-to-check-when-training-model.html"},"url":"https://igorkasianenko.github.io/fastpages-igor/deep%20learning/2021/05/08/things-to-check-when-training-model.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/fastpages-igor/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://igorkasianenko.github.io/fastpages-igor/feed.xml" title="Igor's blog" /><link rel="shortcut icon" type="image/x-icon" href="/fastpages-igor/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -69,32 +70,50 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">About Me</h1>
-  </header>
+    <h1 class="post-title p-name" itemprop="name headline">Things to check when I train a model.</h1><p class="page-description">My first blog post using markdown with fastpages.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-05-08T00:00:00-05:00" itemprop="datePublished">
+        May 8, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
 
-  <div class="post-content">
-    <p>This is my personal blog.
-This page will soon become “Now” page like inspired by <a href="https://sive.rs/now">Derek Sivers</a> <a href="https://nownownow.com/about">now page</a></p>
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/fastpages-igor/categories/#deep learning">deep learning</a>
+        
+      
+      </p>
+    
 
-<h3 id="contact-me">Contact me</h3>
+    </header>
 
-<p><a href="mailto:kasianenko@pm.me">kasianenko@pm.me</a></p>
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul id="toc" class="section-nav">
+</ul><p>According to the research mentioned in book <a href="https://amzn.to/3aW7zCz">‘Mastermind: How to Think Like Sherlock Holmes’ by Maria Konnikova</a>, even highly skilled professions like medical doctors are prone to errors and forget important steps in their work if they don’t have written guidance or recepie to do routine repeatative tasks.</p>
 
-<p>This website is powered by <strong><a href="https://github.com/fastai/fastpages">fastpages</a></strong> <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+<p>So, I decided to write down a list of things that I should check to avoid ruining experiments and save time.</p>
 
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>a blogging platform that natively supports Jupyter notebooks in addition to other formats. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
+<ol>
+  <li>Check that optimizer and learning rate (SGD, Adam, etc.) is exactly what you need and not old values from previous experiments.</li>
+  <li>Check train and validation augmentations</li>
+  <li>Check number of epochs to train</li>
+  <li>Check if the model is pre-trained or you resume from trained checkpoint. If resume, lower lr (if you don’t use lr scheduler for # epoch)</li>
+  <li>Check that model is frozen\unfrozen like you need.</li>
+  <li>Check dataset. Most of the cases in real world data it is not balanced, so do over- and undersampling. If it is production data - pull latest updates.</li>
+  <li>Check batch size, num_workers for data loader, cuda # if you have &gt; 1 GPU.</li>
+  <li>Check the experiment name for logging. I use ClearML(https://clear.ml/) at work and can recommend them for friendly slack community.</li>
+</ol>
 
-  </div>
+<p>Also inspired by https://twitter.com/karpathy/status/1013244313327681536</p>
 
+  </div><a class="u-url" href="/fastpages-igor/deep%20learning/2021/05/08/things-to-check-when-training-model.html" hidden></a>
 </article>
 
       </div>
