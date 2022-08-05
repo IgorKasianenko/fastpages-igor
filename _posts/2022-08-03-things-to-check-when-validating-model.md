@@ -14,7 +14,7 @@ Some times when testing new models with validation accuracy >90%, test accuracy 
     - Loaded model is in eval mode.
     - Input normalized the same way it was in training.
 2. When the results are bad but not 0:
-    - Validate on balanced data, so the long tail classes won't scew the accuracy.
-3. If you aim for accuracy and don't have inference time constraits:
+    - Validate on balanced data, so the long tail classes won't screw the accuracy.
+3. If you aim for accuracy and don't have inference time constraints:
     - Use test time augmentation.
-    - Consider model ensamble from multiple checkpoints
+    - Consider model ensemble from multiple checkpoints

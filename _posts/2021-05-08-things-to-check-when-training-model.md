@@ -6,7 +6,7 @@ categories: [deep learning]
 title: Things to check when I train a model.
 ---
 
-According to the research mentioned in book [‘Mastermind: How to Think Like Sherlock Holmes’ by Maria Konnikova](https://amzn.to/3aW7zCz), even highly skilled professions like medical doctors are prone to errors and forget important steps in their work if they don't have written guidance or recepie to do routine repeatative tasks.
+According to the research mentioned in book [‘Mastermind: How to Think Like Sherlock Holmes’ by Maria Konnikova](https://amzn.to/3aW7zCz), even highly skilled professions like medical doctors are prone to errors and forget important steps in their work if they don't have written guidance or recepe to do routine repetitive tasks.
 
 So, I decided to write down a list of things that I should check to avoid ruining experiments and save time.
 
