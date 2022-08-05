@@ -96,7 +96,7 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
-</ul><p>This is logical continuation of my first blogpost about Training the model /fastpages-igor/deep%20learning/2021/05/08/things-to-check-when-training-model.html.</p>
+</ul><p>This is logical continuation of my first blogpost about <a href="https://igorkasianenko.github.io/fastpages-igor/deep%20learning/2021/05/08/things-to-check-when-training-model.html">Training the model</a>.</p>
 
 <p>Some times when testing new models with validation accuracy &gt;90%, test accuracy can be &lt; 0.1%. This is pretty strong signal that there is a bug in testing. I would like to list most common ones, in order to eliminate them fast next time something is not working.</p>
 
@@ -109,13 +109,13 @@ window.onload = wrap_img;
   </li>
   <li>When the results are bad but not 0:
     <ul>
-      <li>Validate on balanced data, so the long tail classes won’t scew the accuracy.</li>
+      <li>Validate on balanced data, so the long tail classes won’t screw the accuracy.</li>
     </ul>
   </li>
-  <li>If you aim for accuracy and don’t have inference time constraits:
+  <li>If you aim for accuracy and don’t have inference time constraints:
     <ul>
       <li>Use test time augmentation.</li>
-      <li>Consider model ensamble from multiple checkpoints</li>
+      <li>Consider model ensemble from multiple checkpoints</li>
     </ul>
   </li>
 </ol>
