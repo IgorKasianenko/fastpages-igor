@@ -6,7 +6,7 @@ categories: [deep learning]
 title: Things to check when I test a model.
 ---
 
-This is logical continuation of my first blogpost about Training the model {% post_url 2021-05-08-things-to-check-when-training-model %}.
+This is logical continuation of my first blogpost about [Training the model](https://igorkasianenko.github.io{% post_url 2021-05-08-things-to-check-when-training-model %}).
 
 Some times when testing new models with validation accuracy >90%, test accuracy can be < 0.1%. This is pretty strong signal that there is a bug in testing. I would like to list most common ones, in order to eliminate them fast next time something is not working.
 
