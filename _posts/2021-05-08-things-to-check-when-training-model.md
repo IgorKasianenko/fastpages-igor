@@ -20,3 +20,4 @@ So, I decided to write down a list of things that I should check to avoid ruinin
 8. Check the experiment name for logging. I use ClearML(https://clear.ml/) at work and can recommend them for friendly slack community.
 
 Also inspired by https://twitter.com/karpathy/status/1013244313327681536
+Update: more [detailed article](https://karpathy.github.io/2019/04/25/recipe/) by Andrej
